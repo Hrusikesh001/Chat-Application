@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    margin-left: 20px;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: darkslateblue;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #ddd;
+}
+
+.chat {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.msg {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.chat p {
+    margin: 5px 0;
+}
+
+.chat button {
+    background-color: #de0e23;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+form[action*="/edit"] button {
+    background-color: #67de0d;
+    /* Orange color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.chat button:hover {
+    background-color: #e04351;
+}
+
+form button {
+    background-color: #147014;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+form[action="/chats/new"] {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 2px;
+
+}
+
+textarea {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
